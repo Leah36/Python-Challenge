@@ -1,6 +1,8 @@
 import os 
 import csv
+import sys
 
+sys.stdout = open("solution.txt","w")
 election_data = os.path.join("election_data.csv")
 
 #A list to capture the names of candidates
