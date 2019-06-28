@@ -79,8 +79,7 @@ output = (
   f"Greatest Decrease in Profits:{worst_date} (${str(greatest_decrease)}\n" 
 
 
-# "\str(f"Total Months: {str(total_months)}"
-  # f"\str(f"Total: ${str(total_pl)}"
+
 )
 print(output)
 
@@ -90,23 +89,6 @@ with open(analysis,"w") as txt_file:
 
 
 
-
-
-# line5 = str(f"Average Change: ${str(round(avg_change,2))}")
-# line6 = str(f"Greastest Increase in Profits:{greatest_date} (${str(greatest_increase)})")
-# line7 = str(f"Greastest Decrease in Profits: {worst_date} (${str(greatest_decrease)})")
-# output.write("{}\n{}\n{}\n{}\n{}\n{}\n{}\n".format(line1,line2,line3,line4,line5,line6,line7))
-
-#Exporing to .txt file 
-# output = open("C:/TempDataDir.txt")
-# line1 = "Financial Analysis"
-# line2 = "---------"
-# line3 = str(f"Total Months: {str(total_months)}")
-# line4 = str(f"Total: ${str(total_pl)}")
-# line5 = str(f"Average Change: ${str(round(avg_change,2))}")
-# line6 = str(f"Greastest Increase in Profits:{greatest_date} (${str(greatest_increase)})")
-# line7 = str(f"Greastest Decrease in Profits: {worst_date} (${str(greatest_decrease)})")
-# output.write("{}\n{}\n{}\n{}\n{}\n{}\n{}\n".format(line1,line2,line3,line4,line5,line6,line7))
 
 
 
